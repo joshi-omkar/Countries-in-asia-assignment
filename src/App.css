@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Overpass+Mono:wght@300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fefbf3;
+  max-height: 100vh;
+  font-family: "Overpass Mono", monospace;
+}
+
+nav {
+  padding: 10px;
+  font-size: 1rem;
+  background-color: #6f69ac;
+}
+
+.container {
+  padding: 20px 60px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.card {
+  padding: 15px 39px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 25%;
+}
+
+.img {
+  width: 200px;
+  height: 150px;
+  min-height: 130px;
+}
+
+.borderAndLang {
+  display: flex;
+}
+
+.borders {
+  list-style-type: none;
+  padding-right: 25px;
+}
+
+.lang {
+  list-style-type: none;
+}
